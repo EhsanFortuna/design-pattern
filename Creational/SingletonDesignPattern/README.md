@@ -1,0 +1,1 @@
+Runtime,Logger and Spring bean all of them are Singleton Class
