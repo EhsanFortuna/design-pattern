@@ -20,7 +20,8 @@ public class SingletonTest {
 
 
     /**
-     * To Prevent Low Of Demeter Problem
+     * To Prevent Law Of Demeter Problem
+     * we have to implement this way
      */
     public boolean isEqual(final Object firstObject, final Object secondObject) {
         return firstObject.equals(secondObject);
@@ -28,10 +29,10 @@ public class SingletonTest {
 
 
     /**
-     * Test That Instance Are equal
+     * Test That Instances Are equal
      */
     @Test
-    public void testSomeLibraryMethod() {
+    public void testSingletonImplementation() {
 
         final Singleton firstObject = Singleton.INSTANCE;
         final Singleton secondObject = Singleton.INSTANCE;
