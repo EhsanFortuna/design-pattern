@@ -1,4 +1,4 @@
-package com.fortunaco.creational.sinleton;
+package com.fortunaco.creational.singleton;
 
 
 /**

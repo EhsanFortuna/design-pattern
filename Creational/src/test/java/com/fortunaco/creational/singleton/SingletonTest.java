@@ -1,12 +1,12 @@
-package com.fortunaco.creational.factory;
+package com.fortunaco.creational.singleton;
 
-
-import com.fortunaco.creational.sinleton.Singleton;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
-/** Test For Singleton Design Pattern */
+/**
+ * Test For Singleton Design Pattern
+ */
 public class SingletonTest {
 
     /***/
@@ -19,13 +19,17 @@ public class SingletonTest {
     }
 
 
-    /** To Prevent Low Of Demeter Problem  */
+    /**
+     * To Prevent Low Of Demeter Problem
+     */
     public boolean isEqual(final Object firstObject, final Object secondObject) {
         return firstObject.equals(secondObject);
     }
 
 
-    /** Test That Instance Are equal */
+    /**
+     * Test That Instance Are equal
+     */
     @Test
     public void testSomeLibraryMethod() {
 
