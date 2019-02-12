@@ -5,7 +5,7 @@
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
 
-/// this is new 
+/// this is new in branch
 
 plugins {
    id 'com.gradle.build-scan' version '1.13.2'
